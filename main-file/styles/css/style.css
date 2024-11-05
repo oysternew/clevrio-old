@@ -54,7 +54,7 @@ h4,
 h5,
 h6 {
   letter-spacing: 0px;
-  margin: 10px;
+  margin-top: 15px;
   font-family: var(--jost), sans-serif;
   color: #0b104a;
   font-weight: 400;
@@ -4501,4 +4501,5 @@ h3.single-form-title {
   color: #ffffff; /* text-white */
   font-weight: 600; /* font-semibold */
   background-color: #525fe1;
+  border-radius: 5px;
 }

@@ -48,7 +48,7 @@ export default defineType({
    
     defineField({
       name: 'conclusionText',
-      title: 'Tekst ispod zaključka',
+      title: 'Conclusion',
       type: 'text',
     }),
   ],

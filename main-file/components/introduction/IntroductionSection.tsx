@@ -14,7 +14,7 @@ const IntroductionSection: React.FC<Props> = ({ introductionData }) => {
             <div key={data._id}>
               {/* Provera da li je mainTitle unet */}
               {data.mainTitle && (
-                <h1 className="text-4xl font-bold text-center ">
+                <h1 className="display-4 font-bold text-center ">
                   {data.mainTitle}
                 </h1>
               )}
