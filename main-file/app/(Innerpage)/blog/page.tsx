@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Oyster - Blog",
   description: "Developed By ReactTemplateBuilder",
 };
-
+export const revalidate = 300;
 export default async function Home() {
   const blogData: BlogType[] = await getBlogData();
   return (

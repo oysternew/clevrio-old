@@ -1,6 +1,7 @@
 import React from "react";
 import DivAnimateX from "../utils/DivAnimateX";
 import NumberCounter from "../utils/NumberCounter";
+import EbookDownload from "../ebookdownload/EbookDownload";
 
 const BannerSection = () => {
   return (
@@ -17,15 +18,13 @@ const BannerSection = () => {
           <DivAnimateX position={-60} className="col-lg-6 col-12">
             <div className="hero-text ht_top">
               <h1>
-                <span>Smart Study</span> Where Knowledge Meets the Web
+                <span>Do not trade FX and CFD</span> unless you read our
+                tutorial
               </h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                consectetur adipiscing elit tempor ut labore
-              </p>
+              <p>The Ultimate Course for FX and CFD Trading</p>
             </div>
-            <div className="home_sb">
-              <form action="#" className="banner_subs">
+            {/*<div className="home_sb">
+              {/*<form action="#" className="banner_subs">
                 <input
                   type="text"
                   className="form-control home_si"
@@ -36,12 +35,14 @@ const BannerSection = () => {
                   Search <i className="fa fa-paper-plane-o"></i>
                 </button>
               </form>
-            </div>
+             
+            </div>*/}
+            <EbookDownload />
           </DivAnimateX>
           <div className="col-lg-6 d-none d-lg-block">
             <div className="hero-text-img">
               <img
-                src="assets/img/home-img2.png"
+                src="assets/img/HeroImage.png"
                 className="img-fluid"
                 alt=""
               />

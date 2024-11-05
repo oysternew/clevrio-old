@@ -78,3 +78,19 @@ export async function getBlogData() {
     }`
   );
 }
+export async function introductionTrading() {
+  return client.fetch(
+    groq`*[_type == "introductionTrading"] {
+      _id,
+      mainTitle,
+      subtitle,
+      bulletPoints[]{
+        subheading,
+        paragraph,
+        listItems
+      },
+      conclusion,
+      conclusionText
+    }`
+  );
+}

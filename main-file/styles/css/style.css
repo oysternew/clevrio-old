@@ -47,7 +47,6 @@ body {
   height: 100%;
   position: relative;
 }
-
 h1,
 h2,
 h3,
@@ -55,7 +54,7 @@ h4,
 h5,
 h6 {
   letter-spacing: 0px;
-  margin: 0px;
+  margin: 10px;
   font-family: var(--jost), sans-serif;
   color: #0b104a;
   font-weight: 400;
@@ -85,8 +84,8 @@ p {
 
 ul,
 li {
-  margin: 0;
-  padding: 0;
+  padding: 5px;
+  margin: 5px;
 }
 
 ::-moz-selection {
@@ -568,7 +567,7 @@ main.Oyster-home-2-main .home_bg {
   font-weight: 700;
   letter-spacing: 0;
   line-height: 74px;
-  padding-top: 250px;
+  padding-top: 50px;
   margin-bottom: 20px;
 }
 
@@ -4468,4 +4467,38 @@ h3.single-form-title {
   .ar-account-form-section .auth-container form a.password-recovery-btn {
     font-size: 14px;
   }
+}
+.tackice {
+  list-style-type: disc; /* Use dots (bullets) */
+  margin: 5px;
+  padding-left: 5px; /* Indent the list */
+}
+.pozadina {
+  background-color: #525fe1;
+  color: white;
+  padding: 20px;
+}
+.navigacijatext {
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  /* Adjust the breakpoint as needed */
+  .navigacijatext {
+    flex-direction: column;
+    padding: 10px;
+    /* Switch to column on mobile */
+  }
+}
+.section-offset {
+  padding-top: 90px; /* Adjust this value to match your header height */
+  margin-top: -90px; /* Negative margin to counteract the padding effect */
+}
+.mojedugme {
+  width: 40%; /* w-full */
+  padding-top: 0.5rem; /* py-2 */
+  padding-bottom: 0.5rem;
+  color: #ffffff; /* text-white */
+  font-weight: 600; /* font-semibold */
+  background-color: #525fe1;
 }

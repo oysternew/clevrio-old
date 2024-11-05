@@ -73,3 +73,15 @@ export type BlogType = {
   title: string;
   slug: string;
 };
+export type IntroductionTradingType = {
+  _id: string; // ID dokumenta
+  mainTitle: string; // Glavni naslov
+  subtitle: string; // Podnaslovni tekst
+  bulletPoints: {
+    subheading: string; // Podnaslov
+    paragraph: string; // Paragraf ispod podnaslova
+    listItems: string[]; // Lista stavki
+  }[]; // Niz bullet point objekata
+  conclusion: string; // Zaključak
+  conclusionText: string; // Tekst ispod zaključka
+};
