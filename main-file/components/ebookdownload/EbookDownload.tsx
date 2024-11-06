@@ -56,7 +56,7 @@ const EbookDownload = () => {
               placeholder="Name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="w-full p-2 border border-[#525fe1] rounded"
+              className="w-100 p-2 border border-[#525fe1] rounded"
               required
             />
           </div>
@@ -66,7 +66,7 @@ const EbookDownload = () => {
               placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full p-2 mt-2 border border-[#525fe1] rounded"
+              className="w-100 p-2 mt-2 border border-[#525fe1] rounded"
               required
             />
           </div>

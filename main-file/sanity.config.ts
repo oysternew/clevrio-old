@@ -5,7 +5,7 @@ import {visionTool} from '@sanity/vision'
 
 export default defineConfig({
   name: "default",
-  title: "Oyster",
+  title: "Clevrio",
 
   projectId: "uw1md8cf",
   dataset: "production",

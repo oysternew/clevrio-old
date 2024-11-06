@@ -7,7 +7,7 @@ import { PartnerLogoType, PricingType } from "@/types";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Oyster - Pricing",
+  title: "Clevrio - Pricing",
   description: "Developed By ReactTemplateBuilder",
 };
 
@@ -16,7 +16,7 @@ export default async function Home() {
   const pricingData: PricingType[] = await getPricingData();
 
   return (
-    <main className="Oyster-pricing-main">
+    <main className="Clevrio-pricing-main">
       <Layout>
         <BreadCrumbSection headerText="Pricing Plan" currentPage="Pricing" />
         {pricingData && <PricingSection pricingData={pricingData} />}

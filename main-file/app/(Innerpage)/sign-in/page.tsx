@@ -4,13 +4,13 @@ import Layout from "@/components/layout/Layout";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Oyster - Sign In",
+  title: "Clevrio - Sign In",
   description: "Developed By ReactTemplateBuilder",
 };
 
 export default function Home() {
   return (
-    <main className="Oyster-sign-up-main">
+    <main className="Clevrio-sign-up-main">
       <Layout>
         <BreadCrumbSection currentPage="Sign In" />
         <AuthSection login />

@@ -15,7 +15,7 @@ export default function RootLayout({
     <Providers>
       <html lang="en">
         <body
-          className={`Oyster-body ${dm_sans.variable} ${jost.variable} ${inria_sans.variable} ${themify.variable}`}
+          className={`Clevrio-body ${dm_sans.variable} ${jost.variable} ${inria_sans.variable} ${themify.variable}`}
         >
           {children}
           <ToastContainer />

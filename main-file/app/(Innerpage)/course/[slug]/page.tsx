@@ -6,7 +6,7 @@ import { CourseType } from "@/types";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Oyster - Course Detail",
+  title: "Clevrio - Course Detail",
   description: "Developed By ReactTemplateBuilder",
 };
 
@@ -15,7 +15,7 @@ export default async function Home({ params }: { params: { slug: string } }) {
 
   const courseInfo = courseData.find((item) => item.slug === params.slug);
   return (
-    <main className="Oyster-course-detail-main">
+    <main className="Clevrio-course-detail-main">
       <Layout>
         <BreadCrumbSection currentPage="Course Details" />
         {courseInfo && (

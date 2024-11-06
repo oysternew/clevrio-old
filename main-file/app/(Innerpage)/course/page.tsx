@@ -6,14 +6,14 @@ import { CourseType } from "@/types";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Oyster - All Course",
+  title: "Clevrio - All Course",
   description: "Developed By ReactTemplateBuilder",
 };
 
 export default async function Home() {
   const courseData: CourseType[] = await getCourseData();
   return (
-    <main className="Oyster-course-main">
+    <main className="Clevrio-course-main">
       <Layout>
         <BreadCrumbSection headerText="All Course" currentPage="Course" />
         {courseData && <CourseSection courseData={courseData} />}

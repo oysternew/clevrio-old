@@ -6,7 +6,7 @@ import { BlogType } from "@/types";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Oyster - Blog Details",
+  title: "Clevrio - Blog Details",
   description: "Developed By ReactTemplateBuilder",
 };
 
@@ -15,7 +15,7 @@ export default async function Home({ params }: { params: { slug: string } }) {
 
   const blogInfo = blogData.find((item) => item.slug === params.slug);
   return (
-    <main className="Oyster-blog-details-main">
+    <main className="Clevrio-blog-details-main">
       <Layout>
         <BreadCrumbSection currentPage="Blog Details" />
         {blogInfo && (

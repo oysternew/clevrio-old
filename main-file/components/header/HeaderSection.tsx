@@ -33,7 +33,7 @@ const HeaderSection = () => {
           <div className="col-20 align-self-center header-logo-container">
             <div className="site-logo">
               <Link href="/">
-                <img src="/assets/img/logo.png" alt="logo" />
+                <img src="/assets/img/Clevrio.png" alt="logo" />
               </Link>
             </div>
           </div>
@@ -54,11 +54,11 @@ const HeaderSection = () => {
           </div>
 
           <div className="col-20 d-none d-lg-block text-end align-self-center header-action-container">
-            <Link href="/sign-in" className="header-btn">
+            {/*<Link href="/sign-in" className="header-btn">
               Sign In
-            </Link>
+            </Link>*/}
             <Link href="/sign-up" className="btn_one">
-              Sign Up
+              Contact us
             </Link>
           </div>
         </div>

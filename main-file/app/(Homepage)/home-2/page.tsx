@@ -29,7 +29,7 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Oyster - Homepage Two",
+  title: "Clevrio - Homepage Two",
   description: "Developed By ReactTemplateBuilder",
 };
 
@@ -41,7 +41,7 @@ export default async function Home() {
   const blogData: BlogType[] = await getBlogData();
 
   return (
-    <main className="Oyster-home-2-main Oyster-layout">
+    <main className="Clevrio-home-2-main Clevrio-layout">
       <HeaderSection />
       <BannerSection2 />
       {partnerLogos && <PartnerSection partnerData={partnerLogos} />}

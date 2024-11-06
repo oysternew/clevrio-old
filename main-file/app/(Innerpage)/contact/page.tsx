@@ -5,13 +5,13 @@ import Layout from "@/components/layout/Layout";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Oyster - Contact",
+  title: "Clevrio - Contact",
   description: "Developed By ReactTemplateBuilder",
 };
 
 export default function Home() {
   return (
-    <main className="Oyster-blog-main">
+    <main className="Clevrio-blog-main">
       <Layout>
         <BreadCrumbSection currentPage="Contact" headerText="Get In Touch" />
         <AddressSection />

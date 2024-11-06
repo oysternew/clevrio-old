@@ -11,14 +11,14 @@ import { TestimonialType } from "@/types";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Oyster - About Us",
+  title: "Clevrio - About Us",
   description: "Developed By ReactTemplateBuilder",
 };
 
 export default async function Home() {
   const testimonyData: TestimonialType[] = await getTestimonyData();
   return (
-    <main className="Oyster-about-main">
+    <main className="Clevrio-about-main">
       <Layout>
         <BreadCrumbSection currentPage="About" />
         <CategorySection />

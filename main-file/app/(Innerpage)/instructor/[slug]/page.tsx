@@ -6,7 +6,7 @@ import { TeamType } from "@/types";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Oyster - Instructor Detail",
+  title: "Clevrio - Instructor Detail",
   description: "Developed By ReactTemplateBuilder",
 };
 export default async function Home({ params }: { params: { slug: string } }) {
@@ -14,7 +14,7 @@ export default async function Home({ params }: { params: { slug: string } }) {
 
   const teamInfo = teamData.find((item) => item.slug === params.slug);
   return (
-    <main className="Oyster-course-detail-main">
+    <main className="Clevrio-course-detail-main">
       <Layout>
         <BreadCrumbSection currentPage="Instructor Details" />
         {teamInfo && <TeamDetailSection teamInfo={teamInfo} />}

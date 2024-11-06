@@ -43,7 +43,7 @@ const FooterSection = () => {
           </div>
           <div className="col-lg-2 col-sm-6 col-xs-12">
             <div className="single_footer">
-              <h4>About Oyster</h4>
+              <h4>About Clevrio</h4>
               <ul>
                 <li>
                   <Link href="#">About us</Link>

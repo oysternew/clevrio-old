@@ -6,14 +6,14 @@ import { FaqType } from "@/types";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Oyster - FAQ",
+  title: "Clevrio - FAQ",
   description: "Developed By ReactTemplateBuilder",
 };
 
 export default async function Home() {
   const faqData: FaqType[] = await getFaqData();
   return (
-    <main className="Oyster-faq-main">
+    <main className="Clevrio-faq-main">
       <Layout>
         <BreadCrumbSection currentPage="FAQ" />
         {faqData && <FaqSection faqData={faqData} />}

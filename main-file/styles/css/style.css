@@ -1,6 +1,6 @@
 /*
 Author       : React Template Builder
-Template Name: Oyster - Education Nextjs Template
+Template Name: Clevrio - Education Nextjs Template
 Version      : 1.0
 */
 /*=============================================================
@@ -106,7 +106,7 @@ fieldset {
 .mb-30 {
   margin-bottom: 30px;
 }
-.Oyster-layout {
+.Clevrio-layout {
   margin-top: 100px;
 }
 /*START PRELOADER DESIGN*/
@@ -547,10 +547,10 @@ ul {
   position: relative;
   overflow: hidden;
 }
-main.Oyster-home-1-main .home_bg {
+main.Clevrio-home-1-main .home_bg {
   padding-bottom: 180px;
 }
-main.Oyster-home-2-main .home_bg {
+main.Clevrio-home-2-main .home_bg {
   padding: 20px 0 160px;
 }
 .hero-text {
@@ -2174,7 +2174,7 @@ blockquote::before,
   color: #fff;
 }
 
-main.Oyster-instructor-main section.team_area {
+main.Clevrio-instructor-main section.team_area {
   padding: 80px 0 !important;
 }
 
@@ -2197,7 +2197,7 @@ main.Oyster-instructor-main section.team_area {
 .team_area {
   padding: 0 !important;
 }
-.Oyster-home-2-main .team_area {
+.Clevrio-home-2-main .team_area {
   padding-bottom: 80px !important;
 }
 .testimonial {
@@ -3797,10 +3797,10 @@ h3.single-form-title {
 /* Auth End */
 /* Responsive */
 @media (max-width: 1560px) {
-  main.Oyster-home-1-main .home_bg {
+  main.Clevrio-home-1-main .home_bg {
     padding-bottom: 160px;
   }
-  main.Oyster-home-2-main .home_bg {
+  main.Clevrio-home-2-main .home_bg {
     padding: 10px 0 150px;
   }
 }
@@ -3835,7 +3835,7 @@ h3.single-form-title {
   .hero-text-img {
     right: 10px;
   }
-  main.Oyster-home-1-main .home_bg {
+  main.Clevrio-home-1-main .home_bg {
     padding-bottom: 150px;
   }
   .hero-text-img2 {
@@ -3959,7 +3959,7 @@ h3.single-form-title {
   .header-logo-container {
     width: 15%;
   }
-  .Oyster-home-2-main .home_bg .img-fluid {
+  .Clevrio-home-2-main .home_bg .img-fluid {
     max-width: 90%;
   }
   .hero-text2 h1 {
@@ -3979,13 +3979,13 @@ h3.single-form-title {
     font-size: 12px;
     line-height: 1.5;
   }
-  .Oyster-home-2-main .single_course h4 a {
+  .Clevrio-home-2-main .single_course h4 a {
     font-size: 18px;
   }
-  .Oyster-home-2-main .single-counter {
+  .Clevrio-home-2-main .single-counter {
     padding: 16px;
   }
-  .Oyster-home-2-main .single-counter p {
+  .Clevrio-home-2-main .single-counter p {
     font-size: 12px;
   }
   .single_ins_content h1 {
@@ -4130,7 +4130,7 @@ h3.single-form-title {
   }
 
   /* Header End */
-  main.Oyster-home-2-main .home_bg {
+  main.Clevrio-home-2-main .home_bg {
     padding: 100px 0;
   }
 
@@ -4229,7 +4229,7 @@ h3.single-form-title {
     padding-top: 0px;
     padding-bottom: 50px;
   }
-  main.Oyster-instructor-main section.team_area {
+  main.Clevrio-instructor-main section.team_area {
     padding: 60px 0 !important;
   }
   .single_agent {
@@ -4296,10 +4296,10 @@ h3.single-form-title {
   #nav-icon3 span {
     height: 4px;
   }
-  main.Oyster-home-2-main .home_bg {
+  main.Clevrio-home-2-main .home_bg {
     padding: 80px 0;
   }
-  .Oyster-layout {
+  .Clevrio-layout {
     margin-top: 70px;
   }
   #navigation {
@@ -4358,7 +4358,7 @@ h3.single-form-title {
   .faq_img {
     margin-top: 0;
   }
-  main.Oyster-home-2-main .home_bg {
+  main.Clevrio-home-2-main .home_bg {
     padding: 80px 0;
   }
   .rv-modal-container .rv-modal-body iframe {
@@ -4457,7 +4457,7 @@ h3.single-form-title {
   .section-top-title h1 {
     font-size: 40px;
   }
-  main.Oyster-home-1-main .home_bg {
+  main.Clevrio-home-1-main .home_bg {
     padding-bottom: 140px;
   }
   .rv-modal-container {
@@ -4480,9 +4480,9 @@ h3.single-form-title {
 }
 .navigacijatext {
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
-@media (max-width: 768px) {
+@media (max-width: 996px) {
   /* Adjust the breakpoint as needed */
   .navigacijatext {
     flex-direction: column;
@@ -4490,12 +4490,19 @@ h3.single-form-title {
     /* Switch to column on mobile */
   }
 }
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .navigacijatext {
+    gap: 8px; /* Manji gap */
+
+    font-size: 12px; /* Manji font */
+  }
+}
 .section-offset {
   padding-top: 90px; /* Adjust this value to match your header height */
   margin-top: -90px; /* Negative margin to counteract the padding effect */
 }
 .mojedugme {
-  width: 40%; /* w-full */
+  width: 100%; /* w-full */
   padding-top: 0.5rem; /* py-2 */
   padding-bottom: 0.5rem;
   color: #ffffff; /* text-white */

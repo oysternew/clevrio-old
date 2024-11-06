@@ -43,7 +43,7 @@ const BannerSection = () => {
             <div className="hero-text-img">
               <img
                 src="assets/img/HeroImage.png"
-                className="img-fluid"
+                className="img-fluid "
                 alt=""
               />
               <div className="home_ps">

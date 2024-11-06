@@ -37,11 +37,11 @@ import DivAnimateY from "@/components/utils/DivAnimateY";
 import DivAnimateX from "@/components/utils/DivAnimateX";
 
 export const metadata: Metadata = {
-  title: "Oyster - Homepage One",
+  title: "Clevrio - Homepage One",
   description: "Developed By ReactTemplateBuilder",
 };
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export default async function Home() {
   const partnerLogos: PartnerLogoType[] = await getPartnerLogos();
@@ -69,7 +69,7 @@ export default async function Home() {
   );
 
   return (
-    <main className="Oyster-home-1-main Oyster-layout">
+    <main className="Clevrio-home-1-main Clevrio-layout">
       <HeaderSection />
       <BannerSection />
       <CounterSection />
