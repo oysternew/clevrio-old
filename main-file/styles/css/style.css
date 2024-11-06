@@ -558,7 +558,7 @@ main.Clevrio-home-2-main .home_bg {
 }
 
 .hero-text h1 span {
-  color: #525fe1;
+  color: #d575b5;
 }
 
 .hero-text h1 {
@@ -4479,8 +4479,14 @@ h3.single-form-title {
   padding: 20px;
 }
 .navigacijatext {
-  display: flex;
+  display: flex; /* Koristi Flexbox */
   gap: 15px;
+}
+.centrirano {
+  display: flex;
+  justify-content: center; /* Centriraj stavke horizontalno */
+
+  align-items: center;
 }
 @media (max-width: 996px) {
   /* Adjust the breakpoint as needed */

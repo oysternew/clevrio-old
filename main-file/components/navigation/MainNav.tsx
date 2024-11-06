@@ -29,7 +29,7 @@ const MainNav = ({ mobileMenuOpen }: Props) => {
   }, []);
 
   return (
-    <nav id="main-menu" className={mobileMenuOpen ? "show" : ""}>
+    <nav id="main-menu" className={mobileMenuOpen ? "show" : "centrirano"}>
       {/* Original menu items as comments */}
       {/*
           <ul className="main-nav-items"> 

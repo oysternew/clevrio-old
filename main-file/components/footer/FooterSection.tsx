@@ -11,11 +11,10 @@ const FooterSection = () => {
               <Link href="/">
                 <img src="/assets/img/logo.png" alt="" />
               </Link>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                vitae risus nec dui venenatis dignissim.
+              <p className="px-3 ">
+                The Ultimate Course for FX and CFD Trading
               </p>
-              <div className="social_profile">
+              {/* <div className="social_profile">
                 <ul>
                   <li>
                     <Link href="#" className="f_facebook">
@@ -38,10 +37,10 @@ const FooterSection = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </div>*/}
             </div>
           </div>
-          <div className="col-lg-2 col-sm-6 col-xs-12">
+          {/* <div className="col-lg-2 col-sm-6 col-xs-12">
             <div className="single_footer">
               <h4>About Clevrio</h4>
               <ul>
@@ -133,7 +132,7 @@ const FooterSection = () => {
                 />
               </Link>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
     </div>
